@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Support YouTube Creators</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="functions.js" async></script>
+  </head>
+  <body>
+    <button id="hamburger" class="hamburger" onclick="handle()"></button>
+    <!-- nav -->
+    <nav id="main-nav" class="main-nav">
+      <a href="#" onclick="handle()">Home</a>
+      <a href="#" onclick="handle()">About</a>
+      <a href="#" onclick="handle()">Creator</a>
+      <a href="#" onclick="handle()">Support</a>
+    </nav>
+    <!-- main .home -->
+    <main class="home">
+      <section class="home__info">
+        <header class="home__header">
+          <h1 class="home__title">YouTube Creators</h1>
+          <span class="home__spacer"></span>
+          <p class="home__subtext">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas aut
+            amet quaerat odit, commodi maxime quisquam. Recusandae nulla vero
+            harum ut hic assumenda dolores pariatur consequuntur impedit
+            ratione, laborum, illo quos, reiciendis deserunt! Dolore, adipisci
+            consectetur officiis nisi facilis distinctio?
+          </p>
+          <a href="#" class="home__cta">Support a Creator</a>
+        </header>
+      </section>
+      <section class="home__cards">
+        <div class="group-one">
+          <div class="home__card home__card--square">
+            <header>
+              <img src="./images/marques-profile.jpg" alt="Marques Brownlee" />
+              <h3>
+                <a href="#">Marques Brownlee</a>
+              </h3>
+            </header>
+          </div>
+          <div class="home__card home__card--large">
+            <header>
+              <img src="./images/tmo-profile.jpg" alt="Tech Me Out" />
+              <h3>
+                <a href="#">Tech Me Out</a>
+              </h3>
+            </header>
+          </div>
+        </div>
+
+        <div class="group-two">
+          <div class="home__card home__card--large">
+            <header>
+              <img src="./images/ijustin-profile.jpg" alt="justin" />
+              <h3>
+                <a href="#">Justin</a>
+              </h3>
+            </header>
+          </div>
+          <div class="home__card home__card--square">
+            <header>
+              <img src="./images/peter-profile.jpg" alt="Peter" />
+              <h3>
+                <a href="#">Peter</a>
+              </h3>
+            </header>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
