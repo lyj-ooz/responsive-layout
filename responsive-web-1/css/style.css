@@ -215,7 +215,7 @@ img {
 
 /* media queries */
 /* tablets and under */
-@media (max-width: 768px) {
+@media (max-width: 894px) {
   .grid,
   .showcase .grid,
   .stats .grid,
