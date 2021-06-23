@@ -243,7 +243,8 @@ header .icons .fa-search {
 @media (min-width: 768px) {
   .infoAndupNext {
     flex-direction: row;
-    margin: var(--padding) 0;
+    margin-top: var(--padding);
+    margin-bottom: var(--padding);
   }
 
   .infoAndupNext > .info,
