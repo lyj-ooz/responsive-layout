@@ -1,6 +1,6 @@
 # Responsive Web 2
 
-반응형 웹 연습.
+반응형 웹 연습. [배포 버전](https://lyj-ooz.github.io/responsive-layout/responsive-web-2/)
 
 ### desktop 버전
 

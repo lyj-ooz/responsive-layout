@@ -1,6 +1,6 @@
 # Responsive Web 1
 
-반응형 웹 연습.
+반응형 웹 연습. [배포 버전](https://lyj-ooz.github.io/responsive-layout/responsive-web-1/)
 
 브라우저에 대응하기 위해 아래처럼 prefix 사용
 
